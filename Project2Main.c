@@ -31,11 +31,7 @@
 /***********************************************************************************************
  *	Name Ciunas Low Bennett
  *	Date 08/12/15
- *	LAB 16
- *	This lab uses I2C functions to interface the KL26Zmicrocontroller to the accelerometer built into the board. First part otf the
- *	Program reads the WHO_AM_I_reg and TEMPERAUTRE registers then prints the value of these registers to the terminal.
- *	Second part of the program reads the FXOS8700PL_STATUS register. THis register is a 8 bit register so the values have to be masked
- *	to get the values we want. The orientation is calculated then printed  to the terminal.
+ *	Fourth Year mini-project
  **********************************************************************************************/
 #define col 10
 #include "board.h"
